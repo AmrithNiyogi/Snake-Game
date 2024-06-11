@@ -1,0 +1,15 @@
+Imports: Import the Shape class from the turtle module.
+
+FoodDesign class:
+
+    __init__ method: Initializes the FoodDesign object with a reference to the screen and calls the method to register the custom apple shape.
+
+    register_apple_shape method:
+
+        Creates a compound shape for the apple.
+
+        Defines the coordinates for the different components of the apple (body, stem, and leaf).
+
+        Adds these components to the compound shape with their respective colors.
+
+        Registers the custom apple shape with the screen.

@@ -1,0 +1,7 @@
+Imports: Import the Turtle class from the turtle module and the random module (aliased as r). Import FoodDesign from food_design.
+
+Food class:
+
+    __init__ method: Initializes the Food object, applies custom design using FoodDesign, sets up the appearance of the food (shape, size, color), sets the movement speed, and places the food at a random position using the refresh method.
+
+    refresh method: Generates random coordinates within the screen bounds and moves the food to those coordinates.

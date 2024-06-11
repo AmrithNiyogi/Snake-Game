@@ -1,0 +1,15 @@
+Imports: Import necessary modules for time control and turtle graphics, and custom classes for the snake, food, and scoreboard.
+
+screen_setup function: Sets up the screen with a specific size, color, title, and key bindings to control the snake.
+
+Main code block:
+    Create instances of Screen, Snake, Food, and Scoreboard.
+    Call screen_setup to initialize the screen and key bindings.
+    Enter the main game loop where:
+        The screen is updated and paused to control the game speed.
+        The snake is moved.
+        Collision with food, wall, and tail are detected, handling each scenario accordingly.
+
+Game Over Handling: If the snake collides with the wall or its tail, the game ends and a "Game Over" message is displayed.
+
+Exit on Click: Ensures the game window closes when clicked.

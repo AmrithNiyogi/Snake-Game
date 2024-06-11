@@ -1,0 +1,12 @@
+Imports: Import the Turtle class from the turtle module.
+
+Constants: Define constants for text alignment and font settings.
+
+Scoreboard class:
+    __init__ method: Initializes the scoreboard, sets the initial score to 0, configures the appearance, hides the turtle, moves it to the top-center of the screen, and displays the initial score.
+
+    update_scoreboard method: Clears the current score display and writes the updated score.
+
+    increase_score method: Increments the score by 1 and updates the scoreboard display.
+
+    game_over method: Moves the turtle to the center of the screen and displays a "GAME OVER" message.
