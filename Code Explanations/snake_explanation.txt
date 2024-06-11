@@ -1,0 +1,18 @@
+Imports: Import necessary modules from the turtle module.
+
+Constants: Define constants for the snake's starting positions, movement distance, and directions.
+
+Snake class:
+    __init__ method: Initializes the snake, sets up custom shapes for the head and body, creates the initial snake, and sets the head of the snake.
+
+    create_snake_shape method: Defines and registers custom shapes for the snake's head and body, including the eyes for the head.
+
+    create_snake method: Creates the initial snake with segments at predefined starting positions.
+
+    move method: Moves the snake forward by updating the position of each segment to follow the one in front.
+
+    Direction methods (up, down, left, right): Change the direction of the snake's head, ensuring it doesn't reverse direction.
+
+    add_segment method: Adds a new segment to the snake at a specified position, with different shapes for the head and body.
+
+    extend method: Extends the snake by adding a new segment at the position of the last segment.
