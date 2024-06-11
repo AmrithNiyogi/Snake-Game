@@ -27,7 +27,7 @@ This project is a simple Snake Game where the player controls a snake to eat foo
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/snake-game.git
+    git clone https://github.com/AmrithNiyogi/snake-game.git
     ```
 
 2. Navigate to the project directory:
@@ -46,7 +46,7 @@ This project is a simple Snake Game where the player controls a snake to eat foo
 
 To start the game, run the following command:
 ```sh
-python main.py
+python snake_game.py
 ```
 
 ## Controls
@@ -58,7 +58,7 @@ python main.py
 
 ## Code Structure
 
-- `main.py`: The entry point for the game. Sets up the screen and starts the game loop.
+- `snake_game.py`: The entry point for the game. Sets up the screen and starts the game loop.
 - `snake.py`: Contains the `Snake` class which manages the snake's behavior and movement.
 - `food.py`: Contains the `Food` class which manages the food's behavior and positioning.
 - `scoreboard.py`: Contains the `Scoreboard` class which manages the score display and game over message.
