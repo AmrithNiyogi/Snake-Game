@@ -16,6 +16,7 @@ class Scoreboard(Turtle):
         # Initialize the score attribute to 0
         self.score = 0
         # Read the file and initialize the high score to the value present in the file
+        self.high_score = 0
         with open("data.txt") as data:
             int(data.read())
         # Set the color of the turtle (pen) to white
