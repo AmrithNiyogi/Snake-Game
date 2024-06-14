@@ -37,10 +37,7 @@ This project is a simple Snake Game where the player controls a snake to eat foo
 
 3. Ensure you have Python installed (preferably version 3.6 or above).
 
-4. Install the required dependencies (if any):
-    ```sh
-    pip install -r requirements.txt
-    ```
+4. Install the required dependencies (if any)
 
 ## Usage
 
