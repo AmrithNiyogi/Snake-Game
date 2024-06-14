@@ -14,7 +14,6 @@ class Scoreboard(Turtle):
         # Initialize the parent Turtle class
         super().__init__()
         # Initialize the score attribute to 0
-        self.high_score = self.score
         self.score = 0
         # Read the file and initialize the high score to the value present in the file
         with open("data.txt") as data:
