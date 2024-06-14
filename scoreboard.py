@@ -28,7 +28,9 @@ class Scoreboard(Turtle):
         # Move the turtle to the top-center of the screen
         self.goto(0, 270)
         # Write the initial score on the screen
-        self.write(f"Score: {self.score}", move=False, align=ALIGNMENT, font=(FONT_NAME, FONT_SIZE, FONT_STYLE))
+        self.write(f"Score: {self.score} High Score: {self.high_score}", move=False, align=ALIGNMENT, font=(FONT_NAME,
+                                                                                                            FONT_SIZE,
+                                                                                                            FONT_STYLE))
 
     # Method to update the scoreboard display
     def update_scoreboard(self):
