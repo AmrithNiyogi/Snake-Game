@@ -7,15 +7,18 @@ FONT_SIZE = 20
 FONT_NAME = "Montserrat"
 FONT_STYLE = "bold"
 
+
 # Define the Scoreboard class, inheriting from Turtle
 class Scoreboard(Turtle):
     def __init__(self):
         # Initialize the parent Turtle class
         super().__init__()
         # Initialize the score attribute to 0
+        self.high_score = self.score
         self.score = 0
-        # Initialize the high score attribute to 0
-        self.high_score = 0
+        # Read the file and initialize the high score to the value present in the file
+        with open("data.txt") as data:
+            int(data.read())
         # Set the color of the turtle (pen) to white
         self.color("white")
         # Hide the turtle icon
@@ -46,6 +49,8 @@ class Scoreboard(Turtle):
         if self.score > self.high_score:
             # Update the high score to the current score
             self.high_score = self.score
+            with open("data.txt", mode="w") as data:
+                data.write(f"{self.high_score}")
         # Reset the current score to zero
         self.score = 0
         # Update the scoreboard to reflect the new scores
