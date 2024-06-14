@@ -35,7 +35,9 @@ class Scoreboard(Turtle):
         # Clear the previous score
         self.clear()
         # Write the updated score and high score on the screen
-        self.write(f"Score: {self.score} High Score: {self.high_score}", move=False, align=ALIGNMENT, font=(FONT_NAME, FONT_SIZE, FONT_STYLE))
+        self.write(f"Score: {self.score} High Score: {self.high_score}", move=False, align=ALIGNMENT, font=(FONT_NAME,
+                                                                                                            FONT_SIZE,
+                                                                                                            FONT_STYLE))
 
     # Method to increase the score
     def increase_score(self):
