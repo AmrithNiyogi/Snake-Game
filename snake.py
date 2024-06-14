@@ -111,3 +111,14 @@ class Snake:
     def extend(self):
         # Add a new segment at the position of the last segment
         self.add_segment(self.segments[-1].position())
+
+    def reset(self):
+        # Move each segment of the snake to an off-screen position
+        for seg in self.segments:
+            seg.goto(1000, 1000)
+        # Clear the list of segments
+        self.segments.clear()
+        # Recreate the snake from scratch
+        self.create_snake()
+        # Set the head of the snake to the first segment
+        self.head = self.segments[0]
