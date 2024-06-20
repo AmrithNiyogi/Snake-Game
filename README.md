@@ -27,7 +27,7 @@ This project is a simple Snake Game where the player controls a snake to eat foo
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/AmrithNiyogi/snake-game.git
+    git clone https://github.com/AmrithNiyogi/Snake-Game.git
     ```
 
 2. Navigate to the project directory:
